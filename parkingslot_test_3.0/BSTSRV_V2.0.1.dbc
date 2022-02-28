@@ -1,0 +1,3282 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 1464 Parkslot_8: 64 Vector__XXX
+ SG_ ParkInfo_Shape_Depth : 164|10@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Width : 174|10@1+ (0.01,0) [0|10.23] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_Y : 153|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_X : 142|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_Y : 131|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_X : 120|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Angle : 77|8@1+ (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Shape_Orientation : 68|9@1- (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Corner2_X : 107|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_Y : 96|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_X : 85|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner2_Y : 57|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_Y : 46|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_X : 35|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Mark_Age : 27|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Confidence : 20|7@1+ (1,0) [0|0] "pct" Vector__XXX
+ SG_ ParkInfo_Mark_Order : 32|2@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Lock : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_ID : 8|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Type : 18|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Status : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1459 Parkslot_3: 64 Vector__XXX
+ SG_ ParkInfo_Shape_Depth : 164|10@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Width : 174|10@1+ (0.01,0) [0|10.23] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_Y : 153|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_X : 142|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_Y : 131|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_X : 120|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Angle : 77|8@1+ (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Shape_Orientation : 68|9@1- (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Corner2_X : 107|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_Y : 96|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_X : 85|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner2_Y : 57|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_Y : 46|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_X : 35|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Mark_Age : 27|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Confidence : 20|7@1+ (1,0) [0|0] "pct" Vector__XXX
+ SG_ ParkInfo_Mark_Order : 32|2@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Lock : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_ID : 8|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Type : 18|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Status : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1460 Parkslot_4: 64 Vector__XXX
+ SG_ ParkInfo_Shape_Depth : 164|10@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Width : 174|10@1+ (0.01,0) [0|10.23] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_Y : 153|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_X : 142|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_Y : 131|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_X : 120|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Angle : 77|8@1+ (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Shape_Orientation : 68|9@1- (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Corner2_X : 107|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_Y : 96|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_X : 85|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner2_Y : 57|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_Y : 46|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_X : 35|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Mark_Age : 27|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Confidence : 20|7@1+ (1,0) [0|0] "pct" Vector__XXX
+ SG_ ParkInfo_Mark_Order : 32|2@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Lock : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_ID : 8|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Type : 18|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Status : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1463 Parkslot_7: 64 Vector__XXX
+ SG_ ParkInfo_Shape_Depth : 164|10@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Width : 174|10@1+ (0.01,0) [0|10.23] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_Y : 153|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_X : 142|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_Y : 131|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_X : 120|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Angle : 77|8@1+ (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Shape_Orientation : 68|9@1- (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Corner2_X : 107|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_Y : 96|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_X : 85|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner2_Y : 57|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_Y : 46|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_X : 35|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Mark_Age : 27|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Confidence : 20|7@1+ (1,0) [0|0] "pct" Vector__XXX
+ SG_ ParkInfo_Mark_Order : 32|2@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Lock : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_ID : 8|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Type : 18|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Status : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1462 Parkslot_6: 64 Vector__XXX
+ SG_ ParkInfo_Shape_Depth : 164|10@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Width : 174|10@1+ (0.01,0) [0|10.23] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_Y : 153|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_X : 142|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_Y : 131|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_X : 120|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Angle : 77|8@1+ (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Shape_Orientation : 68|9@1- (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Corner2_X : 107|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_Y : 96|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_X : 85|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner2_Y : 57|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_Y : 46|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_X : 35|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Mark_Age : 27|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Confidence : 20|7@1+ (1,0) [0|0] "pct" Vector__XXX
+ SG_ ParkInfo_Mark_Order : 32|2@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Lock : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_ID : 8|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Type : 18|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Status : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1461 Parkslot_5: 64 Vector__XXX
+ SG_ ParkInfo_Shape_Depth : 164|10@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Width : 174|10@1+ (0.01,0) [0|10.23] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_Y : 153|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_X : 142|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_Y : 131|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_X : 120|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Angle : 77|8@1+ (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Shape_Orientation : 68|9@1- (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Corner2_X : 107|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_Y : 96|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_X : 85|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner2_Y : 57|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_Y : 46|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_X : 35|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Mark_Age : 27|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Confidence : 20|7@1+ (1,0) [0|0] "pct" Vector__XXX
+ SG_ ParkInfo_Mark_Order : 32|2@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Lock : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_ID : 8|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Type : 18|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Status : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1458 Parkslot_2: 64 Vector__XXX
+ SG_ ParkInfo_Shape_Depth : 164|10@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Width : 174|10@1+ (0.01,0) [0|10.23] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_Y : 153|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_X : 142|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_Y : 131|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_X : 120|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Angle : 77|8@1+ (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Shape_Orientation : 68|9@1- (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Corner2_X : 107|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_Y : 96|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_X : 85|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner2_Y : 57|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_Y : 46|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_X : 35|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Mark_Age : 27|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Confidence : 20|7@1+ (1,0) [0|0] "pct" Vector__XXX
+ SG_ ParkInfo_Mark_Order : 32|2@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Lock : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_ID : 8|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Type : 18|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Status : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1321 Obstacle_9: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1320 Obstacle_8: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1319 Obstacle_7: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1318 Obstacle_6: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1317 Obstacle_5: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1316 Obstacle_4: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1315 Obstacle_3: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1635 TSR_Sign_3: 64 Vector__XXX
+ SG_ Supplier_Right : 139|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Left : 138|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Front : 136|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Back : 137|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Supp_Sign_Type : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Type : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Value : 24|11@1+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Confidence : 55|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Width : 44|10@1+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Height : 35|9@1+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Status : 59|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FSR_Filter_Type : 128|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_ID : 112|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Position_Z : 96|9@1- (0.1,0) [0|0] "m" Vector__XXX
+ SG_ TSR_Sign_Position_X : 79|10@1- (0.1,0) [0|0] "m" Vector__XXX
+ SG_ TSR_Sign_Position_Y : 63|11@1+ (0.1,0) [0|0] "m" Vector__XXX
+ SG_ isvalid : 61|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1634 TSR_Sign_2: 64 Vector__XXX
+ SG_ Supplier_Right : 139|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Left : 138|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Front : 136|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Back : 137|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Supp_Sign_Type : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Type : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Value : 24|11@1+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Confidence : 55|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Width : 44|10@1+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Height : 35|9@1+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Status : 59|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FSR_Filter_Type : 128|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_ID : 112|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Position_Z : 96|9@1- (0.1,0) [0|0] "m" Vector__XXX
+ SG_ TSR_Sign_Position_X : 79|10@1- (0.1,0) [0|0] "m" Vector__XXX
+ SG_ TSR_Sign_Position_Y : 63|11@1+ (0.1,0) [0|0] "m" Vector__XXX
+ SG_ isvalid : 61|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1457 Parkslot_1: 64 Vector__XXX
+ SG_ ParkInfo_Shape_Depth : 164|10@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Width : 174|10@1+ (0.01,0) [0|10.23] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_Y : 153|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner4_X : 142|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_Y : 131|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner3_X : 120|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Shape_Angle : 77|8@1+ (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Shape_Orientation : 68|9@1- (1,0) [0|0] "deg" Vector__XXX
+ SG_ ParkInfo_Corner2_X : 107|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_Y : 96|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner1_X : 85|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Corner2_Y : 57|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_Y : 46|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Center_X : 35|11@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ ParkInfo_Mark_Age : 27|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Confidence : 20|7@1+ (1,0) [0|0] "pct" Vector__XXX
+ SG_ ParkInfo_Mark_Order : 32|2@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Lock : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_ID : 8|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Mark_Type : 18|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ParkInfo_Mark_Status : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1456 Parkslots_Signals_Header: 64 Vector__XXX
+ SG_ VehicleY : 56|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ VehicleX : 40|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Failsafe : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RollingCounter : 80|4@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ CheckSUM : 72|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ ParkInfo_Num : 32|6@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ Timestamp : 16|16@1+ (1,0) [0|0] "mSec" Vector__XXX
+ SG_ Protocol_Version : 8|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "N/A" Vector__XXX
+
+BO_ 1302 Lane_Roadedge_Right: 64 Vector__XXX
+ SG_ Lane_Supplier_Front : 320|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Back : 321|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Left : 323|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Right : 322|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Is_Multi_Clothoid : 319|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Existence_Probability : 312|7@1+ (0.01,0) [0|0] "NA" Vector__XXX
+ SG_ Lane_Age : 304|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Track_ID : 296|8@1+ (1,0) [0|0] "counter" Vector__XXX
+ SG_ Second_C0 : 200|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Second_C3 : 272|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ Second_C2 : 248|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ Second_C1 : 224|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ First_C3 : 144|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ First_C2 : 120|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ First_C1 : 96|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ isvalid : 22|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ First_C0 : 72|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_End : 56|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_Start : 40|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_End : 184|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_Start : 168|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Predict : 21|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_TLC : 24|6@1+ (0.1,0) [0|0] "second" Vector__XXX
+ SG_ Lane_TLC_Valid : 20|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Crossing : 15|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_MarkWidth : 32|8@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_MarkColor : 18|2@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ Lane_Quality : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_MarkType : 11|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_LocationType : 8|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1301 Lane_Roadedge_Left: 64 Vector__XXX
+ SG_ Lane_Supplier_Front : 320|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Back : 321|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Left : 323|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Right : 322|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Is_Multi_Clothoid : 319|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Existence_Probability : 312|7@1+ (0.01,0) [0|0] "NA" Vector__XXX
+ SG_ Lane_Age : 304|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Track_ID : 296|8@1+ (1,0) [0|0] "counter" Vector__XXX
+ SG_ Second_C0 : 200|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Second_C3 : 272|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ Second_C2 : 248|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ Second_C1 : 224|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ First_C3 : 144|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ First_C2 : 120|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ First_C1 : 96|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ isvalid : 22|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ First_C0 : 72|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_End : 56|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_Start : 40|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_End : 184|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_Start : 168|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Predict : 21|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_TLC : 24|6@1+ (0.1,0) [0|0] "second" Vector__XXX
+ SG_ Lane_TLC_Valid : 20|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Crossing : 15|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_MarkWidth : 32|8@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_MarkColor : 18|2@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ Lane_Quality : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_MarkType : 11|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_LocationType : 8|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1300 Lane_Neighbor_Right: 64 Vector__XXX
+ SG_ Lane_Supplier_Front : 320|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Back : 321|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Left : 323|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Right : 322|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Is_Multi_Clothoid : 319|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Existence_Probability : 312|7@1+ (0.01,0) [0|0] "NA" Vector__XXX
+ SG_ Lane_Age : 304|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Track_ID : 296|8@1+ (1,0) [0|0] "counter" Vector__XXX
+ SG_ Second_C0 : 200|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Second_C3 : 272|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ Second_C2 : 248|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ Second_C1 : 224|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ First_C3 : 144|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ First_C2 : 120|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ First_C1 : 96|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ isvalid : 22|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ First_C0 : 72|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_End : 56|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_Start : 40|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_End : 184|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_Start : 168|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Predict : 21|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_TLC : 24|6@1+ (0.1,0) [0|0] "second" Vector__XXX
+ SG_ Lane_TLC_Valid : 20|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Crossing : 15|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_MarkWidth : 32|8@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_MarkColor : 18|2@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ Lane_Quality : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_MarkType : 11|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_LocationType : 8|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1299 Lane_Neighbor_Left: 64 Vector__XXX
+ SG_ Lane_Supplier_Front : 320|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Back : 321|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Left : 323|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Right : 322|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Is_Multi_Clothoid : 319|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Existence_Probability : 312|7@1+ (0.01,0) [0|0] "NA" Vector__XXX
+ SG_ Lane_Age : 304|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Track_ID : 296|8@1+ (1,0) [0|0] "counter" Vector__XXX
+ SG_ Second_C0 : 200|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Second_C3 : 272|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ Second_C2 : 248|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ Second_C1 : 224|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ First_C3 : 144|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ First_C2 : 120|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ First_C1 : 96|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ isvalid : 22|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ First_C0 : 72|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_End : 56|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_Start : 40|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_End : 184|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_Start : 168|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Predict : 21|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_TLC : 24|6@1+ (0.1,0) [0|0] "second" Vector__XXX
+ SG_ Lane_TLC_Valid : 20|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Crossing : 15|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_MarkWidth : 32|8@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_MarkColor : 18|2@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ Lane_Quality : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_MarkType : 11|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_LocationType : 8|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1298 Lane_Near_Right: 64 Vector__XXX
+ SG_ Lane_Supplier_Front : 320|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Back : 321|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Left : 323|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Right : 322|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Is_Multi_Clothoid : 319|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Existence_Probability : 312|7@1+ (0.01,0) [0|0] "NA" Vector__XXX
+ SG_ Lane_Age : 304|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Track_ID : 296|8@1+ (1,0) [0|0] "counter" Vector__XXX
+ SG_ Second_C0 : 200|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Second_C3 : 272|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ Second_C2 : 248|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ Second_C1 : 224|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ First_C3 : 144|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ First_C2 : 120|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ First_C1 : 96|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ isvalid : 22|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ First_C0 : 72|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_End : 56|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_Start : 40|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_End : 184|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_Start : 168|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Predict : 21|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_TLC : 24|6@1+ (0.1,0) [0|0] "second" Vector__XXX
+ SG_ Lane_TLC_Valid : 20|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Crossing : 15|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_MarkWidth : 32|8@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_MarkColor : 18|2@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ Lane_Quality : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_MarkType : 11|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_LocationType : 8|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1446 Free_Space_Point6: 64 Vector__XXX
+ SG_ FS_Supplier_Front_180 : 484|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_180 : 485|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_180 : 487|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_180 : 486|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_180 : 472|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_179 : 468|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_179 : 469|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_179 : 471|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_179 : 470|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_179 : 456|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_178 : 452|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_178 : 453|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_178 : 455|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_178 : 454|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_178 : 440|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_177 : 436|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_177 : 437|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_177 : 439|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_177 : 438|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_177 : 424|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_176 : 420|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_176 : 421|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_176 : 423|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_176 : 422|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_176 : 408|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_175 : 404|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_175 : 405|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_175 : 407|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_175 : 406|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_175 : 392|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_174 : 388|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_174 : 389|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_174 : 391|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_174 : 390|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_174 : 376|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_173 : 372|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_173 : 373|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_173 : 375|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_173 : 374|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_173 : 360|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_172 : 356|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_172 : 357|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_172 : 359|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_172 : 358|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_172 : 344|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_171 : 340|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_171 : 341|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_171 : 343|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_171 : 342|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_171 : 328|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_170 : 324|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_170 : 325|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_170 : 327|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_170 : 326|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_170 : 312|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_169 : 308|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_169 : 309|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_169 : 311|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_169 : 310|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_169 : 296|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_168 : 292|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_168 : 293|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_168 : 295|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_168 : 294|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_168 : 280|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_167 : 276|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_167 : 277|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_167 : 279|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_167 : 278|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_167 : 264|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_166 : 260|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_166 : 261|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_166 : 263|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_166 : 262|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_166 : 248|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_165 : 244|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_165 : 245|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_165 : 247|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_165 : 246|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_165 : 232|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_164 : 228|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_164 : 229|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_164 : 231|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_164 : 230|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_164 : 216|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_163 : 212|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_163 : 213|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_163 : 215|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_163 : 214|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_163 : 200|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_162 : 196|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_162 : 197|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_162 : 199|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_162 : 198|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_162 : 184|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_161 : 180|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_161 : 181|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_161 : 183|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_161 : 182|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_161 : 168|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_160 : 164|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_160 : 165|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_160 : 167|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_160 : 166|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_160 : 152|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_159 : 148|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_159 : 149|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_159 : 151|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_159 : 150|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_159 : 136|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_158 : 132|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_158 : 133|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_158 : 135|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_158 : 134|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_158 : 120|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_157 : 116|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_157 : 117|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_157 : 119|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_157 : 118|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_157 : 104|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_156 : 100|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_156 : 101|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_156 : 103|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_156 : 102|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_156 : 88|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_155 : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_155 : 85|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_155 : 87|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_155 : 86|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_155 : 72|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_154 : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_154 : 69|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_154 : 71|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_154 : 70|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_154 : 56|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_153 : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_153 : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_153 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_153 : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_153 : 40|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_152 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_152 : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_152 : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_152 : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_152 : 24|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_151 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_151 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_151 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_151 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_151 : 8|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1445 Free_Space_Point5: 64 Vector__XXX
+ SG_ FS_Supplier_Front_150 : 484|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_150 : 485|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_150 : 487|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_150 : 486|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_150 : 472|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_149 : 468|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_149 : 469|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_149 : 471|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_149 : 470|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_149 : 456|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_148 : 452|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_148 : 453|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_148 : 455|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_148 : 454|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_148 : 440|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_147 : 436|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_147 : 437|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_147 : 439|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_147 : 438|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_147 : 424|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_146 : 420|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_146 : 421|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_146 : 423|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_146 : 422|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_146 : 408|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_145 : 404|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_145 : 405|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_145 : 407|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_145 : 406|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_145 : 392|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_144 : 388|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_144 : 389|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_144 : 391|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_144 : 390|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_144 : 376|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_143 : 372|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_143 : 373|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_143 : 375|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_143 : 374|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_143 : 360|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_142 : 356|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_142 : 357|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_142 : 359|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_142 : 358|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_142 : 344|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_141 : 340|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_141 : 341|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_141 : 343|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_141 : 342|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_141 : 328|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_140 : 324|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_140 : 325|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_140 : 327|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_140 : 326|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_140 : 312|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_139 : 308|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_139 : 309|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_139 : 311|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_139 : 310|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_139 : 296|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_138 : 292|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_138 : 293|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_138 : 295|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_138 : 294|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_138 : 280|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_137 : 276|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_137 : 277|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_137 : 279|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_137 : 278|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_137 : 264|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_136 : 260|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_136 : 261|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_136 : 263|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_136 : 262|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_136 : 248|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_135 : 244|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_135 : 245|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_135 : 247|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_135 : 246|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_135 : 232|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_134 : 228|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_134 : 229|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_134 : 231|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_134 : 230|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_134 : 216|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_133 : 212|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_133 : 213|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_133 : 215|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_133 : 214|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_133 : 200|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_132 : 196|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_132 : 197|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_132 : 199|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_132 : 198|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_132 : 184|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_131 : 180|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_131 : 181|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_131 : 183|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_131 : 182|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_131 : 168|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_130 : 164|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_130 : 165|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_130 : 167|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_130 : 166|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_130 : 152|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_129 : 148|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_129 : 149|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_129 : 151|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_129 : 150|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_129 : 136|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_128 : 132|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_128 : 133|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_128 : 135|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_128 : 134|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_128 : 120|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_127 : 116|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_127 : 117|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_127 : 119|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_127 : 118|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_127 : 104|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_126 : 100|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_126 : 101|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_126 : 103|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_126 : 102|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_126 : 88|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_125 : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_125 : 85|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_125 : 87|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_125 : 86|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_125 : 72|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_124 : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_124 : 69|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_124 : 71|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_124 : 70|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_124 : 56|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_123 : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_123 : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_123 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_123 : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_123 : 40|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_122 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_122 : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_122 : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_122 : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_122 : 24|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_121 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_121 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_121 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_121 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_121 : 8|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1444 Free_Space_Point4: 64 Vector__XXX
+ SG_ FS_Supplier_Front_120 : 484|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_120 : 485|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_120 : 487|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_120 : 486|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_120 : 472|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_119 : 468|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_119 : 469|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_119 : 471|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_119 : 470|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_119 : 456|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_118 : 452|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_118 : 453|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_118 : 455|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_118 : 454|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_118 : 440|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_117 : 436|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_117 : 437|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_117 : 439|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_117 : 438|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_117 : 424|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_116 : 420|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_116 : 421|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_116 : 423|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_116 : 422|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_116 : 408|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_115 : 404|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_115 : 405|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_115 : 407|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_115 : 406|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_115 : 392|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_114 : 388|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_114 : 389|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_114 : 391|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_114 : 390|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_114 : 376|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_113 : 372|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_113 : 373|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_113 : 375|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_113 : 374|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_113 : 360|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_112 : 356|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_112 : 357|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_112 : 359|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_112 : 358|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_112 : 344|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_111 : 340|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_111 : 341|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_111 : 343|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_111 : 342|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_111 : 328|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_110 : 324|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_110 : 325|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_110 : 327|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_110 : 326|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_110 : 312|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_109 : 308|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_109 : 309|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_109 : 311|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_109 : 310|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_109 : 296|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_108 : 292|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_108 : 293|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_108 : 295|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_108 : 294|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_108 : 280|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_107 : 276|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_107 : 277|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_107 : 279|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_107 : 278|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_107 : 264|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_106 : 260|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_106 : 261|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_106 : 263|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_106 : 262|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_106 : 248|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_105 : 244|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_105 : 245|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_105 : 247|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_105 : 246|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_105 : 232|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_104 : 228|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_104 : 229|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_104 : 231|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_104 : 230|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_104 : 216|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_103 : 212|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_103 : 213|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_103 : 215|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_103 : 214|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_103 : 200|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_102 : 196|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_102 : 197|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_102 : 199|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_102 : 198|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_102 : 184|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_101 : 180|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_101 : 181|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_101 : 183|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_101 : 182|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_101 : 168|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_100 : 164|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_100 : 165|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_100 : 167|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_100 : 166|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_100 : 152|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_99 : 148|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_99 : 149|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_99 : 151|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_99 : 150|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_99 : 136|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_98 : 132|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_98 : 133|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_98 : 135|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_98 : 134|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_98 : 120|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_97 : 116|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_97 : 117|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_97 : 119|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_97 : 118|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_97 : 104|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_96 : 100|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_96 : 101|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_96 : 103|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_96 : 102|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_96 : 88|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_95 : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_95 : 85|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_95 : 87|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_95 : 86|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_95 : 72|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_94 : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_94 : 69|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_94 : 71|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_94 : 70|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_94 : 56|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_93 : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_93 : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_93 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_93 : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_93 : 40|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_92 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_92 : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_92 : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_92 : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_92 : 24|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_91 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_91 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_91 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_91 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_91 : 8|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1443 Free_Space_Point3: 64 Vector__XXX
+ SG_ FS_Supplier_Front_90 : 484|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_90 : 485|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_90 : 487|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_90 : 486|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_90 : 472|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_89 : 468|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_89 : 469|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_89 : 471|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_89 : 470|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_89 : 456|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_88 : 452|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_88 : 453|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_88 : 455|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_88 : 454|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_88 : 440|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_87 : 436|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_87 : 437|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_87 : 439|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_87 : 438|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_87 : 424|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_86 : 420|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_86 : 421|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_86 : 423|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_86 : 422|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_86 : 408|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_85 : 404|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_85 : 405|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_85 : 407|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_85 : 406|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_85 : 392|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_84 : 388|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_84 : 389|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_84 : 391|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_84 : 390|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_84 : 376|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_83 : 372|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_83 : 373|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_83 : 375|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_83 : 374|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_83 : 360|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_82 : 356|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_82 : 357|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_82 : 359|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_82 : 358|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_82 : 344|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_81 : 340|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_81 : 341|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_81 : 343|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_81 : 342|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_81 : 328|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_80 : 324|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_80 : 325|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_80 : 327|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_80 : 326|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_80 : 312|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_79 : 308|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_79 : 309|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_79 : 311|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_79 : 310|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_79 : 296|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_78 : 292|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_78 : 293|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_78 : 295|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_78 : 294|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_78 : 280|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_77 : 276|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_77 : 277|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_77 : 279|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_77 : 278|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_77 : 264|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_76 : 260|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_76 : 261|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_76 : 263|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_76 : 262|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_76 : 248|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_75 : 244|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_75 : 245|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_75 : 247|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_75 : 246|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_75 : 232|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_74 : 228|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_74 : 229|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_74 : 231|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_74 : 230|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_74 : 216|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_73 : 212|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_73 : 213|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_73 : 215|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_73 : 214|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_73 : 200|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_72 : 196|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_72 : 197|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_72 : 199|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_72 : 198|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_72 : 184|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_71 : 180|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_71 : 181|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_71 : 183|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_71 : 182|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_71 : 168|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_70 : 164|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_70 : 165|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_70 : 167|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_70 : 166|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_70 : 152|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_69 : 148|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_69 : 149|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_69 : 151|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_69 : 150|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_69 : 136|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_68 : 132|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_68 : 133|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_68 : 135|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_68 : 134|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_68 : 120|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_67 : 116|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_67 : 117|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_67 : 119|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_67 : 118|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_67 : 104|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_66 : 100|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_66 : 101|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_66 : 103|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_66 : 102|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_96 : 88|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_65 : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_65 : 85|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_65 : 87|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_65 : 86|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_65 : 72|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_64 : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_64 : 69|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_64 : 71|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_64 : 70|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_94 : 56|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_63 : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_63 : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_63 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_63 : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_63 : 40|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_62 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_62 : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_62 : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_62 : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_62 : 24|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_61 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_61 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_61 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_61 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_61 : 8|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1442 Free_Space_Point2: 64 Vector__XXX
+ SG_ FS_Supplier_Front_60 : 484|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_60 : 485|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_60 : 487|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_60 : 486|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_60 : 472|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_59 : 468|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_59 : 469|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_59 : 471|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_59 : 470|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_59 : 456|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_58 : 452|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_58 : 453|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_58 : 455|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_58 : 454|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_58 : 440|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_57 : 436|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_57 : 437|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_57 : 439|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_57 : 438|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_57 : 424|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_56 : 420|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_56 : 421|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_56 : 423|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_56 : 422|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_56 : 408|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_55 : 404|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_55 : 405|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_55 : 407|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_55 : 406|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_55 : 392|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_54 : 388|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_54 : 389|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_54 : 391|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_54 : 390|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_54 : 376|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_53 : 372|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_53 : 373|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_53 : 375|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_53 : 374|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_53 : 360|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_52 : 356|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_52 : 357|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_52 : 359|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_52 : 358|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_52 : 344|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_51 : 340|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_51 : 341|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_51 : 343|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_51 : 342|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_51 : 328|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_50 : 324|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_50 : 325|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_50 : 327|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_50 : 326|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_50 : 312|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_49 : 308|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_49 : 309|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_49 : 311|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_49 : 310|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_49 : 296|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_48 : 292|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_48 : 293|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_48 : 295|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_48 : 294|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_48 : 280|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_47 : 276|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_47 : 277|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_47 : 279|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_47 : 278|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_47 : 264|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_46 : 260|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_46 : 261|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_46 : 263|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_46 : 262|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_46 : 248|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_45 : 244|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_45 : 245|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_45 : 247|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_45 : 246|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_45 : 232|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_44 : 228|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_44 : 229|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_44 : 231|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_44 : 230|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_44 : 216|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_43 : 212|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_43 : 213|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_43 : 215|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_43 : 214|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_43 : 200|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_42 : 196|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_42 : 197|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_42 : 199|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_42 : 198|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_42 : 184|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_41 : 180|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_41 : 181|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_41 : 183|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_41 : 182|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_41 : 168|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_40 : 164|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_40 : 165|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_40 : 167|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_40 : 166|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_40 : 152|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_39 : 148|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_39 : 149|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_39 : 151|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_39 : 150|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_39 : 136|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_38 : 132|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_38 : 133|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_38 : 135|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_38 : 134|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_38 : 120|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_37 : 116|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_37 : 117|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_37 : 119|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_37 : 118|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_37 : 104|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_36 : 100|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_36 : 101|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_36 : 103|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_36 : 102|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_36 : 88|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_35 : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_35 : 85|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_35 : 87|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_35 : 86|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_35 : 72|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_34 : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_34 : 69|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_34 : 71|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_34 : 70|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_34 : 56|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_33 : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_33 : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_33 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_33 : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_33 : 40|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_32 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_32 : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_32 : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_32 : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_32 : 24|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_31 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_31 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_31 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_31 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_31 : 8|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1441 Free_Space_Point1: 64 Vector__XXX
+ SG_ FS_Supplier_Front_30 : 484|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_30 : 485|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_30 : 487|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_30 : 486|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_30 : 472|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_29 : 468|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_29 : 469|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_29 : 471|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_29 : 470|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_29 : 456|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_28 : 452|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_28 : 453|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_28 : 455|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_28 : 454|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_28 : 440|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_27 : 436|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_27 : 437|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_27 : 439|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_27 : 438|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_27 : 424|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_26 : 420|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_26 : 421|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_26 : 423|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_26 : 422|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_26 : 408|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_25 : 404|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_25 : 405|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_25 : 407|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_25 : 406|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_25 : 392|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_24 : 388|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_24 : 389|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_24 : 391|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_24 : 390|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_24 : 376|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_23 : 372|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_23 : 373|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_23 : 375|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_23 : 374|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_23 : 360|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_22 : 356|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_22 : 357|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_22 : 359|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_22 : 358|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_22 : 344|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_21 : 340|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_21 : 341|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_21 : 343|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_21 : 342|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_21 : 328|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_20 : 324|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_20 : 325|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_20 : 327|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_20 : 326|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_20 : 312|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_19 : 308|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_19 : 309|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_19 : 311|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_19 : 310|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_19 : 296|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_18 : 292|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_18 : 293|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_18 : 295|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_18 : 294|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_18 : 280|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_17 : 276|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_17 : 277|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_17 : 279|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_17 : 278|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_17 : 264|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_16 : 260|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_16 : 261|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_16 : 263|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_16 : 262|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_16 : 248|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_15 : 244|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_15 : 245|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_15 : 247|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_15 : 246|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_15 : 232|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_14 : 228|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_14 : 229|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_14 : 231|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_14 : 230|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_14 : 216|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_13 : 212|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_13 : 213|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_13 : 215|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_13 : 214|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_13 : 200|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_12 : 196|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_12 : 197|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_12 : 199|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_12 : 198|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_12 : 184|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_11 : 180|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_11 : 181|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_11 : 183|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_11 : 182|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_11 : 168|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_10 : 164|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_10 : 165|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_10 : 167|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_10 : 166|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_10 : 152|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_9 : 148|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_9 : 149|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_9 : 151|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_9 : 150|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_9 : 136|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_8 : 132|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_8 : 133|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_8 : 135|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_8 : 134|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_8 : 120|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_7 : 116|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_7 : 117|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_7 : 119|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_7 : 118|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_7 : 104|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_6 : 100|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_6 : 101|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_6 : 103|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_6 : 102|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_6 : 88|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_5 : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_5 : 85|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_5 : 87|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_5 : 86|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_5 : 72|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_4 : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_4 : 69|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_4 : 71|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_4 : 70|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_4 : 56|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_3 : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_3 : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_3 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_3 : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_3 : 40|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_2 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_2 : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_2 : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_2 : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_2 : 24|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ FS_Supplier_Front_1 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Back_1 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Left_1 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Supplier_Right_1 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_R_1 : 8|12@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1440 Free_Space_Header: 64 Vector__XXX
+ SG_ Angle_Resolution : 24|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CheckSUM : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RollingCounter : 28|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Number_of_Points_Total : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ protocol_version : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1281 Fail_Safe: 64 Vector__XXX
+ SG_ Supplier_Right : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Left : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Front : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Back : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FS_Smeared_Halos : 35|3@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ FS_Smeared_Spots : 32|3@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ FS_Out_of_Calibration_Horizon : 31|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ FS_Out_of_Calibration_Yaw : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ FS_Out_of_Calibration : 22|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ FS_Blockage : 27|3@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ FS_Blue_Image : 24|3@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ FS_Sun_Glare : 19|3@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ FS_Foggy : 16|3@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ protocol_version : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1297 Lane_Near_Left: 64 Vector__XXX
+ SG_ Lane_Supplier_Front : 320|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Back : 321|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Left : 323|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Supplier_Right : 322|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Is_Multi_Clothoid : 319|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Existence_Probability : 312|7@1+ (0.01,0) [0|0] "NA" Vector__XXX
+ SG_ Lane_Age : 304|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Track_ID : 296|8@1+ (1,0) [0|0] "counter" Vector__XXX
+ SG_ Second_C0 : 200|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Second_C3 : 272|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ Second_C2 : 248|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ Second_C1 : 224|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ First_C3 : 144|24@1- (1,0) [0|0] "1/m^2" Vector__XXX
+ SG_ First_C2 : 120|24@1- (1,0) [0|0] "1/m" Vector__XXX
+ SG_ First_C1 : 96|24@1- (1,0) [0|0] "radians" Vector__XXX
+ SG_ isvalid : 22|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ First_C0 : 72|24@1- (1,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_End : 56|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_First_VR_Start : 40|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_End : 184|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Second_VR_Start : 168|15@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_Predict : 21|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_TLC : 24|6@1+ (0.1,0) [0|0] "second" Vector__XXX
+ SG_ Lane_TLC_Valid : 20|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Crossing : 15|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_MarkWidth : 32|8@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ Lane_MarkColor : 18|2@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ Lane_Quality : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_MarkType : 11|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_LocationType : 8|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1296 Lane_Signals_Header: 64 Vector__XXX
+ SG_ CheckSUM : 64|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RollingCounter : 72|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Curvature_Radius : 50|12@1+ (2.5,0) [0|0] "" Vector__XXX
+ SG_ Lane_Width : 42|6@1+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ Probability_of_Left_Lane : 32|7@1+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ Probability_of_Right_Lane : 24|7@1+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ Road_Type : 48|2@1+ (1,0) [0|0] "enum" Vector__XXX
+ SG_ ModelValid : 31|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Timestamp : 16|8@1+ (1,0) [0|0] "mSec" Vector__XXX
+ SG_ Num_Lanes : 39|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ protocol_version : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1332 Obstacle_20: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1331 Obstacle_19: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1330 Obstacle_18: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1329 Obstacle_17: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1328 Obstacle_16: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1327 Obstacle_15: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1326 Obstacle_14: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1325 Obstacle_13: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1324 Obstacle_12: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1323 Obstacle_11: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1322 Obstacle_10: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1314 Obstacle_2: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1313 Obstacle_1: 64 Vector__XXX
+ SG_ Obstacle_TTC_V : 360|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD_V : 361|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC_STD : 352|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_TTC : 344|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD : 148|10@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_V : 147|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD_V : 338|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_STD : 330|8@1+ (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Accel_V : 329|1@1+ (1,0) [0|0] "m/s2" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD_V : 129|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity_STD_V : 158|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_V : 84|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Front : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Back : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Left : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Supplier_Right : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleID : 16|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Type : 26|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeLights : 30|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleStatus : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlinkerInfo : 35|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleValid : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist : 40|14@1- (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Long_Dist_V : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD_V : 68|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Dist_STD : 55|13@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist : 72|12@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD : 85|11@1+ (0.05,0) [0|0] "m" Vector__XXX
+ SG_ Obstacle_Lat_Dist_STD_V : 96|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Long_Velocity : 104|12@1- (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_V : 116|1@1+ (1,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Velocity_STD : 117|12@1+ (0.05,0) [0|0] "m/sec" Vector__XXX
+ SG_ Obstacle_Long_Accel : 320|9@1- (0.05,0) [0|0] "m/s2" Vector__XXX
+ SG_ ObstacleLane : 189|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cut_in_and_Out : 130|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Height : 256|7@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterX : 160|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ CenterY : 171|13@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ MCP : 186|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RMC : 187|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LMC : 188|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Secondary_CIPV : 184|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV : 185|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ ObstacleScaleChange : 192|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleAngleRate : 208|10@1- (0.1,0) [0|0] "degree/sec" Vector__XXX
+ SG_ ObstacleAngle : 218|10@1- (1,0) [0|0] "degree" Vector__XXX
+ SG_ ObstacleAge : 232|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ObstacleWidth : 240|8@1+ (0.05,0) [0|0] "" Vector__XXX
+ SG_ ObstacleLength : 248|8@1+ (0.13,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lat_Velocity : 136|11@1- (0.05,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Orientation : 264|9@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxBottom : 273|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxTop : 284|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxRight : 295|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BboxLeft : 306|11@1+ (1,0) [0|0] "pixels" Vector__XXX
+
+BO_ 1312 Objects_Signals_Header: 64 Vector__XXX
+ SG_ CheckSUM : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RollingCounter : 52|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Failsafe_Scene : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LeftCloseRangeCutIn : 34|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ RightCloseRangeCutIn : 33|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Close_Car : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Go_Status : 20|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Timestamp : 24|8@1+ (1,0) [0|0] "mSec" Vector__XXX
+ SG_ Num_Obstacles : 36|6@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ protocol_version : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1283 Display_And_Warning: 64 Vector__XXX
+ SG_ CIPV_Index : 88|6@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Major_Vesion : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Pre_post_Version : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Minor_Version : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Customer_Version : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TTLC_Valid : 79|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TTC_Valid : 71|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TTLC : 80|7@1+ (0.1,0) [0|0] "s" Vector__XXX
+ SG_ TTC : 72|7@1+ (0.1,0) [0|0] "s" Vector__XXX
+ SG_ FailSafe : 63|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Headway_Warning_Level : 61|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Headway_Measurement : 64|7@1+ (0.1,0) [0|0] "s" Vector__XXX
+ SG_ Headway_Valid : 60|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ CIPV_Flag : 59|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Pedestrian_in_DZ : 58|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PCW_On : 57|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FCW_On : 56|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lane_Crossing : 55|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ LDW_On : 54|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Lanes_On : 53|1@1+ (1,0) [0|0] "bool" Vector__XXX
+ SG_ Sound_Type : 50|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Time_Indicator : 48|2@1+ (1,0) [0|0] "Enum" Vector__XXX
+ SG_ protocol_version : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1282 Camera_Calibration: 64 Vector__XXX
+ SG_ FOE_Y : 360|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FOE_X : 344|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Back_Z : 312|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Back_Y : 328|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Back_X : 296|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Back_Yaw : 268|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Camera_Back_Roll : 280|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Camera_Back_Pitch : 256|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Camera_Right_Z : 240|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Right_Y : 224|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Right_X : 208|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Right_Yaw : 184|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Camera_Right_Roll : 196|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Camera_Right_Pitch : 172|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Camera_Left_Z : 156|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Left_Y : 140|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Left_X : 124|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Left_Yaw : 100|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Camera_Left_Roll : 112|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Camera_Left_Pitch : 88|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Camera_Front_Z : 72|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Front_Y : 56|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Front_X : 40|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Front_Yaw : 14|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Camera_Front_Roll : 26|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Calib_Status : 0|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Camera_Front_Pitch : 2|12@1- (0.1,0) [0|0] "deg" Vector__XXX
+
+BO_ 1632 TSR_Header: 64 Vector__XXX
+ SG_ CheckSUM : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RollingCounter : 52|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_NumSigns : 16|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ protocol_version : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1633 TSR_Sign_1: 64 Vector__XXX
+ SG_ Supplier_Right : 139|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Left : 138|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Front : 136|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Supplier_Back : 137|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Supp_Sign_Type : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Type : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Value : 24|11@1+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Confidence : 55|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Width : 44|10@1+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Height : 35|9@1+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ Sync_Frame_Index : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Status : 59|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FSR_Filter_Type : 128|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_ID : 112|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TSR_Sign_Position_Z : 96|9@1- (0.1,0) [0|0] "m" Vector__XXX
+ SG_ TSR_Sign_Position_X : 79|10@1- (0.1,0) [0|0] "m" Vector__XXX
+ SG_ TSR_Sign_Position_Y : 63|11@1+ (0.1,0) [0|0] "m" Vector__XXX
+ SG_ isvalid : 61|2@1+ (1,0) [0|0] "" Vector__XXX
+
+
+
+CM_ SG_ 1321 Obstacle_Supplier_Front "Rear view cameraFront view camera";
+CM_ SG_ 1321 Obstacle_Supplier_Back "Front wide view camera";
+CM_ SG_ 1321 Obstacle_Supplier_Left "Front narrow view camera
+";
+CM_ SG_ 1321 Obstacle_Type "0x0�C background
+0x1�C car
+0x2�C truck
+0x3�C bus
+0x4�C bicycle	
+0x5�C motorcycle
+0x6�C pedestrian";
+CM_ SG_ 1321 BrakeLights "0 - unknown
+1 - off
+2 - on";
+CM_ SG_ 1321 ObstacleStatus "Motion status:
+0 unknown
+1 Standing 
+2 Stopped 
+3 Moving 
+4 Oncoming 
+5 Parked 
+6-7 reserved";
+CM_ SG_ 1321 BlinkerInfo "0 - unknown
+1 - off
+2 - left flash
+3 - right flash
+4 - double flash";
+CM_ SG_ 1321 ObstacleValid "0 unknown
+1 new object��first detected�� 
+2 old object
+3 reserved";
+CM_ SG_ 1321 ObstacleLane "0: unknown
+1: Ego Lane
+2: Left Lane
+3: Right Lane";
+CM_ SG_ 1321 Cut_in_and_Out "0 - unknown
+1 - keep in current lane
+2 - cut in from left side
+3 - cut in from right side
+4 - cut out to left side
+5 - cut out to right side
+6 - others";
+CM_ SG_ 1321 CenterX "latitude distance from object center point ";
+CM_ SG_ 1321 CenterY "longitude distance from object center point";
+CM_ SG_ 1321 ObstacleScaleChange "object scale change rate:
+positive means scale becomes lager
+negative means scale becomes smaller";
+CM_ SG_ 1320 Obstacle_Supplier_Front "Rear view cameraFront view camera";
+CM_ SG_ 1320 Obstacle_Supplier_Back "Front wide view camera";
+CM_ SG_ 1320 Obstacle_Supplier_Left "Front narrow view camera
+";
+CM_ SG_ 1320 Obstacle_Type "0x0�C background
+0x1�C car
+0x2�C truck
+0x3�C bus
+0x4�C bicycle	
+0x5�C motorcycle
+0x6�C pedestrian";
+CM_ SG_ 1320 BrakeLights "0 - unknown
+1 - off
+2 - on";
+CM_ SG_ 1320 ObstacleStatus "Motion status:
+0 unknown
+1 Standing 
+2 Stopped 
+3 Moving 
+4 Oncoming 
+5 Parked 
+6-7 reserved";
+CM_ SG_ 1320 BlinkerInfo "0 - unknown
+1 - off
+2 - left flash
+3 - right flash
+4 - double flash";
+CM_ SG_ 1320 ObstacleValid "0 unknown
+1 new object��first detected�� 
+2 old object
+3 reserved";
+CM_ SG_ 1320 ObstacleLane "0: unknown
+1: Ego Lane
+2: Left Lane
+3: Right Lane";
+CM_ SG_ 1320 Cut_in_and_Out "0 - unknown
+1 - keep in current lane
+2 - cut in from left side
+3 - cut in from right side
+4 - cut out to left side
+5 - cut out to right side
+6 - others";
+CM_ SG_ 1320 CenterX "latitude distance from object center point ";
+CM_ SG_ 1320 CenterY "longitude distance from object center point";
+CM_ SG_ 1320 ObstacleScaleChange "object scale change rate:
+positive means scale becomes lager
+negative means scale becomes smaller";
+CM_ SG_ 1319 Obstacle_Supplier_Front "Rear view cameraFront view camera";
+CM_ SG_ 1319 Obstacle_Supplier_Back "Front wide view camera";
+CM_ SG_ 1319 Obstacle_Supplier_Left "Front narrow view camera
+";
+CM_ SG_ 1319 Obstacle_Type "0x0�C background
+0x1�C car
+0x2�C truck
+0x3�C bus
+0x4�C bicycle	
+0x5�C motorcycle
+0x6�C pedestrian";
+CM_ SG_ 1319 BrakeLights "0 - unknown
+1 - off
+2 - on";
+CM_ SG_ 1319 ObstacleStatus "Motion status:
+0 unknown
+1 Standing 
+2 Stopped 
+3 Moving 
+4 Oncoming 
+5 Parked 
+6-7 reserved";
+CM_ SG_ 1319 BlinkerInfo "0 - unknown
+1 - off
+2 - left flash
+3 - right flash
+4 - double flash";
+CM_ SG_ 1319 ObstacleValid "0 unknown
+1 new object��first detected�� 
+2 old object
+3 reserved";
+CM_ SG_ 1319 ObstacleLane "0: unknown
+1: Ego Lane
+2: Left Lane
+3: Right Lane";
+CM_ SG_ 1319 Cut_in_and_Out "0 - unknown
+1 - keep in current lane
+2 - cut in from left side
+3 - cut in from right side
+4 - cut out to left side
+5 - cut out to right side
+6 - others";
+CM_ SG_ 1319 CenterX "latitude distance from object center point ";
+CM_ SG_ 1319 CenterY "longitude distance from object center point";
+CM_ SG_ 1319 ObstacleScaleChange "object scale change rate:
+positive means scale becomes lager
+negative means scale becomes smaller";
+CM_ SG_ 1318 Obstacle_Supplier_Front "Rear view cameraFront view camera";
+CM_ SG_ 1318 Obstacle_Supplier_Back "Front wide view camera";
+CM_ SG_ 1318 Obstacle_Supplier_Left "Front narrow view camera
+";
+CM_ SG_ 1318 Obstacle_Type "0x0�C background
+0x1�C car
+0x2�C truck
+0x3�C bus
+0x4�C bicycle	
+0x5�C motorcycle
+0x6�C pedestrian";
+CM_ SG_ 1318 BrakeLights "0 - unknown
+1 - off
+2 - on";
+CM_ SG_ 1318 ObstacleStatus "Motion status:
+0 unknown
+1 Standing 
+2 Stopped 
+3 Moving 
+4 Oncoming 
+5 Parked 
+6-7 reserved";
+CM_ SG_ 1318 BlinkerInfo "0 - unknown
+1 - off
+2 - left flash
+3 - right flash
+4 - double flash";
+CM_ SG_ 1318 ObstacleValid "0 unknown
+1 new object��first detected�� 
+2 old object
+3 reserved";
+CM_ SG_ 1318 ObstacleLane "0: unknown
+1: Ego Lane
+2: Left Lane
+3: Right Lane";
+CM_ SG_ 1318 Cut_in_and_Out "0 - unknown
+1 - keep in current lane
+2 - cut in from left side
+3 - cut in from right side
+4 - cut out to left side
+5 - cut out to right side
+6 - others";
+CM_ SG_ 1318 CenterX "latitude distance from object center point ";
+CM_ SG_ 1318 CenterY "longitude distance from object center point";
+CM_ SG_ 1318 ObstacleScaleChange "object scale change rate:
+positive means scale becomes lager
+negative means scale becomes smaller";
+CM_ SG_ 1317 Obstacle_Supplier_Front "Rear view cameraFront view camera";
+CM_ SG_ 1317 Obstacle_Supplier_Back "Front wide view camera";
+CM_ SG_ 1317 Obstacle_Supplier_Left "Front narrow view camera
+";
+CM_ SG_ 1317 Obstacle_Type "0x0�C background
+0x1�C car
+0x2�C truck
+0x3�C bus
+0x4�C bicycle	
+0x5�C motorcycle
+0x6�C pedestrian";
+CM_ SG_ 1317 BrakeLights "0 - unknown
+1 - off
+2 - on";
+CM_ SG_ 1317 ObstacleStatus "Motion status:
+0 unknown
+1 Standing 
+2 Stopped 
+3 Moving 
+4 Oncoming 
+5 Parked 
+6-7 reserved";
+CM_ SG_ 1317 BlinkerInfo "0 - unknown
+1 - off
+2 - left flash
+3 - right flash
+4 - double flash";
+CM_ SG_ 1317 ObstacleValid "0 unknown
+1 new object��first detected�� 
+2 old object
+3 reserved";
+CM_ SG_ 1317 ObstacleLane "0: unknown
+1: Ego Lane
+2: Left Lane
+3: Right Lane";
+CM_ SG_ 1317 Cut_in_and_Out "0 - unknown
+1 - keep in current lane
+2 - cut in from left side
+3 - cut in from right side
+4 - cut out to left side
+5 - cut out to right side
+6 - others";
+CM_ SG_ 1317 CenterX "latitude distance from object center point ";
+CM_ SG_ 1317 CenterY "longitude distance from object center point";
+CM_ SG_ 1317 ObstacleScaleChange "object scale change rate:
+positive means scale becomes lager
+negative means scale becomes smaller";
+CM_ SG_ 1316 Obstacle_Supplier_Front "Rear view cameraFront view camera";
+CM_ SG_ 1316 Obstacle_Supplier_Back "Front wide view camera";
+CM_ SG_ 1316 Obstacle_Supplier_Left "Front narrow view camera
+";
+CM_ SG_ 1316 Obstacle_Type "0x0�C background
+0x1�C car
+0x2�C truck
+0x3�C bus
+0x4�C bicycle	
+0x5�C motorcycle
+0x6�C pedestrian";
+CM_ SG_ 1316 BrakeLights "0 - unknown
+1 - off
+2 - on";
+CM_ SG_ 1316 ObstacleStatus "Motion status:
+0 unknown
+1 Standing 
+2 Stopped 
+3 Moving 
+4 Oncoming 
+5 Parked 
+6-7 reserved";
+CM_ SG_ 1316 BlinkerInfo "0 - unknown
+1 - off
+2 - left flash
+3 - right flash
+4 - double flash";
+CM_ SG_ 1316 ObstacleValid "0 unknown
+1 new object��first detected�� 
+2 old object
+3 reserved";
+CM_ SG_ 1316 ObstacleLane "0: unknown
+1: Ego Lane
+2: Left Lane
+3: Right Lane";
+CM_ SG_ 1316 Cut_in_and_Out "0 - unknown
+1 - keep in current lane
+2 - cut in from left side
+3 - cut in from right side
+4 - cut out to left side
+5 - cut out to right side
+6 - others";
+CM_ SG_ 1316 CenterX "latitude distance from object center point ";
+CM_ SG_ 1316 CenterY "longitude distance from object center point";
+CM_ SG_ 1316 ObstacleScaleChange "object scale change rate:
+positive means scale becomes lager
+negative means scale becomes smaller";
+CM_ SG_ 1315 Obstacle_Supplier_Front "Rear view cameraFront view camera";
+CM_ SG_ 1315 Obstacle_Supplier_Back "Front wide view camera";
+CM_ SG_ 1315 Obstacle_Supplier_Left "Front narrow view camera
+";
+CM_ SG_ 1315 Obstacle_Type "0x0�C background
+0x1�C car
+0x2�C truck
+0x3�C bus
+0x4�C bicycle	
+0x5�C motorcycle
+0x6�C pedestrian";
+CM_ SG_ 1315 BrakeLights "0 - unknown
+1 - off
+2 - on";
+CM_ SG_ 1315 ObstacleStatus "Motion status:
+0 unknown
+1 Standing 
+2 Stopped 
+3 Moving 
+4 Oncoming 
+5 Parked 
+6-7 reserved";
+CM_ SG_ 1315 BlinkerInfo "0 - unknown
+1 - off
+2 - left flash
+3 - right flash
+4 - double flash";
+CM_ SG_ 1315 ObstacleValid "0 unknown
+1 new object��first detected�� 
+2 old object
+3 reserved";
+CM_ SG_ 1315 ObstacleLane "0: unknown
+1: Ego Lane
+2: Left Lane
+3: Right Lane";
+CM_ SG_ 1315 Cut_in_and_Out "0 - unknown
+1 - keep in current lane
+2 - cut in from left side
+3 - cut in from right side
+4 - cut out to left side
+5 - cut out to right side
+6 - others";
+CM_ SG_ 1315 CenterX "latitude distance from object center point ";
+CM_ SG_ 1315 CenterY "longitude distance from object center point";
+CM_ SG_ 1315 ObstacleScaleChange "object scale change rate:
+positive means scale becomes lager
+negative means scale becomes smaller";
+CM_ SG_ 1281 FS_Smeared_Halos "0 - no
+1 -low
+2 - medium
+3 - high
+7 - reserved";
+CM_ SG_ 1281 FS_Smeared_Spots "0 - no
+1 -low
+2 - medium
+3 - high
+7 - reserved";
+CM_ SG_ 1281 FS_Blue_Image "0 - no
+1 -low
+2 - medium
+3 - high
+7 - reserved";
+CM_ SG_ 1281 FS_Sun_Glare "0 - no
+1 -low
+2 - medium
+3 - high
+7 - reserved";
+CM_ SG_ 1281 FS_Foggy "0 - no
+1 -low
+2 - medium
+3 - high
+7 - reserved";
+CM_ SG_ 1296 Curvature_Radius "valid only when ModelValid is 1";
+CM_ SG_ 1296 ModelValid "if this lane is valid (when ego_left/ego_right are valid at the same time): 
+0 invalid
+1 valid";
+CM_ SG_ 1313 Obstacle_Supplier_Front "Rear view cameraFront view camera";
+CM_ SG_ 1313 Obstacle_Supplier_Back "Front wide view camera";
+CM_ SG_ 1313 Obstacle_Supplier_Left "Front narrow view camera
+";
+CM_ SG_ 1313 Obstacle_Type "0x0�C background
+0x1�C car
+0x2�C truck
+0x3�C bus
+0x4�C bicycle	
+0x5�C motorcycle
+0x6�C pedestrian";
+CM_ SG_ 1313 BrakeLights "0 - unknown
+1 - off
+2 - on";
+CM_ SG_ 1313 ObstacleStatus "Motion status:
+0 unknown
+1 Standing 
+2 Stopped 
+3 Moving 
+4 Oncoming 
+5 Parked 
+6-7 reserved";
+CM_ SG_ 1313 BlinkerInfo "0 - unknown
+1 - off
+2 - left flash
+3 - right flash
+4 - double flash";
+CM_ SG_ 1313 ObstacleValid "0 unknown
+1 new object��first detected�� 
+2 old object
+3 reserved";
+CM_ SG_ 1313 ObstacleLane "0: unknown
+1: Ego Lane
+2: Left Lane
+3: Right Lane";
+CM_ SG_ 1313 Cut_in_and_Out "0 - unknown
+1 - keep in current lane
+2 - cut in from left side
+3 - cut in from right side
+4 - cut out to left side
+5 - cut out to right side
+6 - others";
+CM_ SG_ 1313 CenterX "latitude distance from object center point ";
+CM_ SG_ 1313 CenterY "longitude distance from object center point";
+CM_ SG_ 1313 ObstacleScaleChange "object scale change rate:
+positive means scale becomes lager
+negative means scale becomes smaller";
+CM_ SG_ 1283 Sound_Type "0 - Silent
+1 - left LDW
+2 - right LDW
+3 - Low-level cars are too close
+4 - high-level cars are too close
+5 - low level FCW
+6 - high level FCW/PCW
+7 - reserved";
+CM_ SG_ 1283 protocol_version " +1 when can protocol changes, only the last eight bytes are reserved.";
+CM_ SG_ 1283 Sync_Frame_Index "Frame signal synchronization index. +1 per cycle starting from 0, only the last eight bytes are reserved.";
+CM_ SG_ 1282 Camera_Front_Y "Vanishing point Y coordinate";
+CM_ SG_ 1282 Camera_Front_X "Vanishing point X coordinate";
+CM_ SG_ 1282 Camera_Front_Yaw "default 0";
+CM_ SG_ 1282 Camera_Front_Roll "default 0";
+CM_ SG_ 1282 Calib_Status "0 off
+1 on
+2 success
+3 fail";
+CM_ SG_ 1282 Camera_Front_Pitch "default -90";
+BA_DEF_ BO_  "NmMessage" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cycle","CA","CE","Event","NotUsed","NotUsed","NotUsed","IfActive","NoMsgSendType","NotUsed";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cycle","OnChange","OnWrite","IfActive","OnChangeWithRepetition","OnWriteWithRepetition","IfActiveWithRepetition";
+BA_DEF_ SG_  "GenSigStartValue" INT 0 0;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 0;
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 0;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 0;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_ BO_  "CANFD_BRS" ENUM  "0","1";
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ SG_  "GenSigTimeoutValue" INT 0 1000000000;
+BA_DEF_ BO_  "GenMsgCycleTimeActive" INT 0 0;
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_ BU_  "DiagStationAddress" HEX 0 255;
+BA_DEF_ BU_  "NmNode" ENUM  "Not","Yes";
+BA_DEF_ BU_  "NmStationAddress" HEX 0 65535;
+BA_DEF_ BU_  "NmCAN" INT 0 2;
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_  "NmType" STRING ;
+BA_DEF_  "NmBaseAddress" HEX 0 2047;
+BA_DEF_  "NmMessageCount" INT 0 255;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 65535;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "NmMessage" "No";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "GenMsgSendType" "Cycle";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenSigSendType" "Cycle";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "CANFD_BRS" "0";
+BA_DEF_DEF_  "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_  "NodeLayerModules" "oseknm01.dll,osek_tp.dll,CANoeILNLVector.dll";
+BA_DEF_DEF_  "GenSigTimeoutValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeActive" 0;
+BA_DEF_DEF_  "ILUsed" "No";
+BA_DEF_DEF_  "DiagStationAddress" 0;
+BA_DEF_DEF_  "NmNode" "Not";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "NmCAN" 0;
+BA_DEF_DEF_  "Manufacturer" "";
+BA_DEF_DEF_  "NmType" "";
+BA_DEF_DEF_  "NmBaseAddress" 1024;
+BA_DEF_DEF_  "NmMessageCount" 128;
+BA_DEF_DEF_  "GenMsgILSupport" "No";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "BusType" "CAN FD";
+BA_ "BusType" "CAN FD";
+BA_ "DBName" "BSTADAS_V2";
+BA_ "GenMsgCycleTime" BO_ 1464 0;
+BA_ "VFrameFormat" BO_ 1464 14;
+BA_ "GenMsgCycleTime" BO_ 1459 0;
+BA_ "VFrameFormat" BO_ 1459 14;
+BA_ "GenMsgCycleTime" BO_ 1460 0;
+BA_ "VFrameFormat" BO_ 1460 14;
+BA_ "GenMsgCycleTime" BO_ 1463 0;
+BA_ "VFrameFormat" BO_ 1463 14;
+BA_ "GenMsgCycleTime" BO_ 1462 0;
+BA_ "VFrameFormat" BO_ 1462 14;
+BA_ "GenMsgCycleTime" BO_ 1461 0;
+BA_ "VFrameFormat" BO_ 1461 14;
+BA_ "GenMsgCycleTime" BO_ 1458 0;
+BA_ "VFrameFormat" BO_ 1458 14;
+BA_ "GenMsgCycleTime" BO_ 1321 0;
+BA_ "VFrameFormat" BO_ 1321 14;
+BA_ "GenMsgCycleTime" BO_ 1320 0;
+BA_ "VFrameFormat" BO_ 1320 14;
+BA_ "GenMsgCycleTime" BO_ 1319 0;
+BA_ "VFrameFormat" BO_ 1319 14;
+BA_ "GenMsgCycleTime" BO_ 1318 0;
+BA_ "VFrameFormat" BO_ 1318 14;
+BA_ "GenMsgCycleTime" BO_ 1317 0;
+BA_ "VFrameFormat" BO_ 1317 14;
+BA_ "GenMsgCycleTime" BO_ 1316 0;
+BA_ "VFrameFormat" BO_ 1316 14;
+BA_ "GenMsgCycleTime" BO_ 1315 0;
+BA_ "VFrameFormat" BO_ 1315 14;
+BA_ "GenMsgCycleTime" BO_ 1635 0;
+BA_ "VFrameFormat" BO_ 1635 14;
+BA_ "GenMsgCycleTime" BO_ 1634 0;
+BA_ "VFrameFormat" BO_ 1634 14;
+BA_ "GenMsgCycleTime" BO_ 1457 0;
+BA_ "VFrameFormat" BO_ 1457 14;
+BA_ "GenMsgCycleTime" BO_ 1456 0;
+BA_ "VFrameFormat" BO_ 1456 14;
+BA_ "GenMsgCycleTime" BO_ 1302 0;
+BA_ "VFrameFormat" BO_ 1302 14;
+BA_ "GenMsgCycleTime" BO_ 1301 0;
+BA_ "VFrameFormat" BO_ 1301 14;
+BA_ "GenMsgCycleTime" BO_ 1300 0;
+BA_ "VFrameFormat" BO_ 1300 14;
+BA_ "GenMsgCycleTime" BO_ 1299 0;
+BA_ "VFrameFormat" BO_ 1299 14;
+BA_ "GenMsgCycleTime" BO_ 1298 0;
+BA_ "VFrameFormat" BO_ 1298 14;
+BA_ "GenMsgCycleTime" BO_ 1446 0;
+BA_ "VFrameFormat" BO_ 1446 14;
+BA_ "GenMsgCycleTime" BO_ 1445 0;
+BA_ "VFrameFormat" BO_ 1445 14;
+BA_ "GenMsgCycleTime" BO_ 1444 0;
+BA_ "VFrameFormat" BO_ 1444 14;
+BA_ "GenMsgCycleTime" BO_ 1443 0;
+BA_ "VFrameFormat" BO_ 1443 14;
+BA_ "GenMsgCycleTime" BO_ 1442 0;
+BA_ "VFrameFormat" BO_ 1442 14;
+BA_ "GenMsgCycleTime" BO_ 1441 0;
+BA_ "VFrameFormat" BO_ 1441 14;
+BA_ "GenMsgCycleTime" BO_ 1440 0;
+BA_ "VFrameFormat" BO_ 1440 14;
+BA_ "GenMsgCycleTime" BO_ 1281 0;
+BA_ "VFrameFormat" BO_ 1281 14;
+BA_ "GenMsgCycleTime" BO_ 1297 0;
+BA_ "VFrameFormat" BO_ 1297 14;
+BA_ "GenMsgCycleTime" BO_ 1296 0;
+BA_ "VFrameFormat" BO_ 1296 14;
+BA_ "GenMsgCycleTime" BO_ 1332 0;
+BA_ "VFrameFormat" BO_ 1332 14;
+BA_ "GenMsgCycleTime" BO_ 1331 0;
+BA_ "VFrameFormat" BO_ 1331 14;
+BA_ "GenMsgCycleTime" BO_ 1330 0;
+BA_ "VFrameFormat" BO_ 1330 14;
+BA_ "GenMsgCycleTime" BO_ 1329 0;
+BA_ "VFrameFormat" BO_ 1329 14;
+BA_ "GenMsgCycleTime" BO_ 1328 0;
+BA_ "VFrameFormat" BO_ 1328 14;
+BA_ "GenMsgCycleTime" BO_ 1327 0;
+BA_ "VFrameFormat" BO_ 1327 14;
+BA_ "GenMsgCycleTime" BO_ 1326 0;
+BA_ "VFrameFormat" BO_ 1326 14;
+BA_ "GenMsgCycleTime" BO_ 1325 0;
+BA_ "VFrameFormat" BO_ 1325 14;
+BA_ "GenMsgCycleTime" BO_ 1324 0;
+BA_ "VFrameFormat" BO_ 1324 14;
+BA_ "GenMsgCycleTime" BO_ 1323 0;
+BA_ "VFrameFormat" BO_ 1323 14;
+BA_ "GenMsgCycleTime" BO_ 1322 0;
+BA_ "VFrameFormat" BO_ 1322 14;
+BA_ "GenMsgCycleTime" BO_ 1314 0;
+BA_ "VFrameFormat" BO_ 1314 14;
+BA_ "GenMsgCycleTime" BO_ 1313 0;
+BA_ "VFrameFormat" BO_ 1313 14;
+BA_ "GenMsgCycleTime" BO_ 1312 0;
+BA_ "VFrameFormat" BO_ 1312 14;
+BA_ "GenMsgCycleTime" BO_ 1283 0;
+BA_ "VFrameFormat" BO_ 1283 14;
+BA_ "GenMsgCycleTime" BO_ 1282 0;
+BA_ "VFrameFormat" BO_ 1282 14;
+BA_ "GenMsgCycleTime" BO_ 1632 0;
+BA_ "VFrameFormat" BO_ 1632 14;
+BA_ "GenMsgCycleTime" BO_ 1633 0;
+BA_ "VFrameFormat" BO_ 1633 14;
+
