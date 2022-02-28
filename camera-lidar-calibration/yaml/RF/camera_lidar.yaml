@@ -1,0 +1,71 @@
+%YAML:1.0
+---
+# DECLARE
+## camera coordinate:
+##   Z(forward along the optic axis)
+##   X(right)
+##   Y(down)
+# Step 1: Check signature 
+Signature: "Autoware"
+# Step 2: Skip file header
+SkipHeaderRows:
+    csv: 1
+    pcd: 11
+# Step 3: Transform world(lidar) to right hand coordinate(same to camera)
+## prior always, 1:=do nothing; -1:=reverse this axis
+RHTransformMark:
+    x: 1
+    y: 1
+    z: 1
+## only when `RHTransformMark` is undefined
+RHTransformMat: !!opencv-matrix
+    rows: 3
+    cols: 3
+    dt: d
+    data: [1, 0, 0,
+           0, 1, 0,
+           0, 0, 1]
+# Step 4: Pick up lidar's data, nonnegative integer:=column; -1:=does't exist
+PickLidarDataMark:
+    x: 0
+    y: 1
+    z: 2
+    d: -1
+    i: 3
+# Step 5(Optional): (For calibrate) Set initial posture
+## unit: rotate angle(degree), shift distance(meter)
+## how to: other(world) coordinate -> camera coordinate (rotate then shift)
+InitialPosture:
+    rx: -99.341
+    ry: -1.818
+    rz: -138.901
+    sx: -1.051
+    sy: 1.129
+    sz: -0.178
+
+# Raw Data: camera coordinate -> other(lidar) coordinate
+CameraExtrinsicMat: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ -7.5319554841186331e-01, -1.3028638656905556e-01,
+       6.4476501403792907e-01, -5.2974701844565342e-01,
+       -6.5703120576058827e-01, 1.0173458601110991e-01,
+       -7.4696724738500775e-01, -9.3835831489545274e-01,
+       3.1724761769630287e-02, -9.8624314014543424e-01,
+       -1.6222825896474849e-01, 1.1179345997483514e+00, 0., 0., 0., 1. ]
+CameraMat: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1.1501000300000001e+03, 0., 9.1910002699999995e+02, 0.,
+       1.1500000299999999e+03, 5.3960001599999998e+02, 0., 0., 1. ]
+DistCoeff: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ -3.5230000000000000e-01, 1.6009999999999999e-01,
+       1.8907000000000000e-04, 1.4260999999999999e-04,
+       -4.1700000000000001e-02 ]
+ImageSize: [ 1920, 1080 ]
+ReprojectionError: "Unavailable"
